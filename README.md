@@ -1,8 +1,10 @@
-# create-svelte
+# ts-svelte-component-bug
 
-Repo that reproduces bug with prop types for `<svelte:component/>`. The
+Repo that reproduces bug with TypeScript but for `<svelte:component/>`. The
 component should accept unioned typed props, but instead accepts intersected
 types.
+
+Created for this issue: https://github.com/sveltejs/language-tools/issues/1669
 
 ## Steps to reproduce
 
